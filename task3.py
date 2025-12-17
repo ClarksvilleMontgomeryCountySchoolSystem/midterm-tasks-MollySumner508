@@ -30,12 +30,10 @@ print(menu)
 
 def get_purchase_info(): # Convert input when necessary
     item = input()
-    price = input()
-    quantity = input()
+    price = float(input())
+    quantity = int(input())
     return item, price, quantity
 
-price = float(price)
-quantity = int(quantity)
 # Only get input if NOT testing
 if not TESTING:
     item, price, quantity = get_purchase_info()
