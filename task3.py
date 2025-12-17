@@ -33,9 +33,9 @@ def get_purchase_info(): # Convert input when necessary
     price = input()
     quantity = input()
     return item, price, quantity
-Dragon_egg = float()
-price = float()
-quantity = float()
+
+price = float(price)
+quantity = int(quantity)
 # Only get input if NOT testing
 if not TESTING:
     item, price, quantity = get_purchase_info()
