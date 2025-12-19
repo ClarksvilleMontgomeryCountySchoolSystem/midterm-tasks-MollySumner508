@@ -1,5 +1,5 @@
 slices = party_pizza_mini + large + medium
-print(f'Total number of slices {total_slices}')
+print(f'Total number of slices {slices}')
 
 people += 1
 leftover = slices % people
